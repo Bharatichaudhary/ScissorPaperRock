@@ -1,0 +1,145 @@
+body{
+  background-color: black;
+}
+.App {
+  text-align: center;
+  justify-content: center;
+}
+input{
+  margin-bottom: 2rem;
+  height: 2rem;
+  width: 50%;
+  
+}
+label{
+  display: block;
+  font-size: larger;
+  font-family: cursive;
+}
+.cross{
+  border: none;
+  color: red;
+  background-color:white ;
+  margin-left: 5px;
+}
+.add{
+  padding:0.5rem 2rem;
+  font-size: larger;
+  background-color: cadetblue;
+  border: none;
+}
+.text{
+  font-size: large;
+  padding: 0.5rem;
+  border: 2px solid black;
+}
+ul{
+  margin: 1% 10%;
+}
+ol{
+  text-align: center;
+  margin-left: -50px;
+  font-size: 1.5rem;
+  font-weight:bold;
+
+}
+.box{
+  color: antiquewhite;
+}
+.opts input,label{
+  font-size: 1.5rem;
+  display: inline-block;
+  margin: 1rem;
+}
+.opts input{
+  width: 5%;
+  height: 1.5rem;
+}
+.opts input:hover{
+  cursor: pointer;
+}
+.question{
+  font-size: 2rem;
+  color: aqua;
+}
+#box{
+  text-align: left;
+}
+.submit{
+  border:none;
+  background-color: rgb(226, 180, 81);
+  float: left;
+  margin: 0px 3rem;
+  padding: 0.5rem 1rem;
+}
+.Next{
+  border: none;
+  position: relative;
+  float: right;
+  margin: 0px 3rem;
+  background-color: rgb(38, 230, 31);
+  padding: 0.5rem 1rem;
+
+
+}
+.option{
+  margin: 2% 25%;
+}
+h1{
+  color: rgb(157, 83, 226);
+}
+.option:hover{
+  background-color: rgb(149, 236, 149);
+  color: black;
+}
+
+.game h2{
+  color: aliceblue;
+}
+.content{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  vertical-align: center;
+}
+.player{
+  margin: 10px;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  flex-direction:column;
+  background-color: azure;
+}
+.round-btn{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  margin: 2px;
+  cursor: pointer;
+  background-color: darkcyan;
+  color: aliceblue;
+}
+.round-btn:hover{
+  background-color: cyan;
+}
+.score{
+  padding: 1px;
+  font-size: small;
+  font-weight: bold;
+  background-color: darkblue;
+  color: azure;
+}
+.action{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  
+}
+.win{
+  font-size: large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 1.5rem;
+}
